@@ -1,0 +1,362 @@
+.main-background{
+    background-image: url(thumbnails/simple.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.msg{
+    background-color: rgb(241, 250, 255);
+    padding: 14px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    margin-bottom: 20px;
+}
+
+.msg a{
+    text-decoration: none;
+    color: rgb(60, 83, 184);
+}
+
+.shop{
+    position: relative;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    background:linear-gradient(to right, rgb(196, 196, 196), rgb(214, 214, 214));
+    padding-bottom: 30px;
+}
+.grid1{
+    background-color: whitesmoke;
+    height: auto;
+    position: relative;
+    padding-top: 20px;
+}
+.grid-inside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    margin: 0px 16px;
+}
+
+.grid-inside img{
+    width: 100%;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-bottom: 5px;
+}
+.grid-inside div{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.link-deals{
+    margin-top: 10px;
+    text-decoration: none;
+    color: rgb(60, 83, 184);
+    font-size: 14px;
+    margin-left: 17px;
+}
+.see{
+    position: absolute;
+    bottom: 10px;
+}
+.grid2{
+    background-color: whitesmoke;
+    height: auto;
+    padding-top: 20px;
+    position: relative;
+}
+.sofa{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.grid2 img{
+    width: 88%;
+    height: auto;
+}
+.sale{
+    background-color: rgb(204, 17, 17);
+    color: white;
+    width: 80px;
+    margin-left: 17px;
+    margin-top: 7px;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 3px;
+    display: inline-block;
+}
+
+.grid2 p{
+    margin: 0;
+    font-size: 12px;
+    color: rgb(185, 15, 15);
+    display: inline-block;
+}
+.sofa-details{
+    font-size: 13px;
+    margin: 5px 17px;
+    padding-bottom: 30px;
+}
+
+
+.grid3{
+    background-color: whitesmoke;
+    height: auto;
+    padding-top: 20px;
+    position: relative;
+}
+.comp-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:  0px 20px;
+    column-gap: 10px;
+}
+.comp-grid div{
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.comp-grid img{
+    width: 100%;
+}
+
+.grid4{
+    background-color: whitesmoke;
+    height: 150px;
+}
+.grid-upper{
+    height: 120px;
+}
+#heading4{
+    margin-top: 20px;
+    font-size: 21px;
+    margin-right: 15px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.button button{
+    width: 90%;
+    padding: 7px;
+    border: none;
+    background-color: rgb(255, 238, 0);
+}
+.side-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+}
+.over{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    position: relative;
+}
+.over img{
+    width: 90%;
+    height: 90%;
+
+}
+.shipping-msg{
+    position: absolute;
+    left: 20px;
+    font-weight: bolder;
+    color: rgb(34, 192, 255);
+    font-size: 20px;
+    padding: 20px 30px;
+}
+#box7{
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+#grid5-1{
+    height: 100%;
+}
+#grid5-2{
+    height: 100%;
+}
+#mix{
+    margin-right: 30px;
+}
+
+#health{
+    padding-right: 20px;
+}
+
+
+/* lower area */
+.div-lower{
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+.recomm{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    border-top: 1px solid gray;
+    padding-top: 40px;
+}
+.signin{
+    display: flex;
+    justify-content: center;
+}
+.signin button{
+    border: none;
+    background:linear-gradient(to bottom, rgb(247, 179, 52), rgb(231, 151, 2));
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 1px 2px 3px gray;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+.login a{
+    text-decoration: none;
+}
+.subfooter{
+    background-color: #2d3742;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;   
+}
+.backtotop{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    cursor: pointer;
+    
+}
+footer{
+    background-color: #161f29;
+    height: auto;
+}
+
+.lower-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 40px;
+    row-gap: 30px;
+}
+.col{
+    margin-left: 100px;
+}
+.head{
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.details-footer{
+    color: rgba(211, 211, 211, 0.911);
+    font-size: 14px;
+}
+.details-footer p{
+    margin: 0;
+    margin: 9px 0px 9px 0px;
+}
+.middle-footer{
+    display: flex;
+    justify-content: center;
+    margin: 80px 250px 0px 250px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.inside-end{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    border-top: 1px solid whitesmoke;
+    padding-top: 50px;
+}
+.data1{
+    width: 110px;
+}
+.data1 img{
+    width: 100%;
+    margin-top: 9px;
+}
+.data-flex{
+    display: flex;
+    align-items: center;
+}
+.engg{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 6px 12px 4px 5px; 
+    margin-right: 7px;
+    border-radius: 3px;
+}
+.usd-dollar{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    height: 20px;
+    padding: 6px 12px 4px 5px;
+    margin-right: 8px;
+    flex-shrink: 0;
+    border-radius: 3px;
+}
+.united-states{
+    display: flex;
+    border: 1px solid whitesmoke;
+    height: 20px;
+    padding: 6px 12px 4px 5px;
+    align-items: center;
+    border-radius: 3px;
+    color: whitesmoke;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+.united-states-flag{
+    width: 20px;
+    margin-right: 5px;
+}
+.united-states-flag img{
+    width: 100%;
+}
+.lower-panel{
+    background-color: #13191f;
+    height: 30px;
+    padding: 20px;
+    padding-bottom: 40px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+.upper-end{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.panel{
+    margin-right: 15px;
+}
+.lower-end{
+    display: flex;
+    justify-content: center;
+}
+
